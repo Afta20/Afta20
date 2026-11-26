@@ -1,0 +1,74 @@
+[profile]
+username = "Afta20"
+display_name = "Afreeza Prananta"
+handle = "@Afta20"
+headline = "Full-Stack Engineer & UI/UX Designer"
+tagline = "Building AI-driven web platforms, zero-trust healthcare systems, and real-time maritime intelligence dashboards."
+availability = "Open to Full-Stack / AI Systems Roles"
+location = "Indonesia · UTC+7"
+
+[contacts]
+linkedin = "https://www.linkedin.com/in/afreeza-prananta/"
+portfolio = "https://portofolio-afreeza.vercel.app/"
+email = "afreezap20@gmail.com"
+github = "https://github.com/Afta20"
+
+[theme]
+style = "editorial-bento"
+accent_dark = "#2f81f7"
+accent_light = "#0969da"
+secondary_dark = "#3fb950"
+secondary_light = "#1a7f37"
+loop_seconds = 24
+
+[pillars]
+items = [
+  "AI-Driven Web Platforms",
+  "Zero-Trust Healthcare Systems",
+  "Real-Time Maritime Intelligence",
+]
+
+[skills]
+frontend_ui = ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "React-Leaflet", "UI/UX Systems"]
+backend_data = ["Golang (Gin)", "Node.js", "Prisma ORM", "PostgreSQL (Neon)", "MySQL", "NextAuth.js"]
+ai_architecture = ["Edge AI (MobileViT)", "Gemma 4 Reasoning", "Groq AI", "Zero-Trust EMR", "REST & GraphQL"]
+
+[[projects]]
+slug = "poseidon-fleet"
+name = "Poseidon Fleet"
+repo = "Afta20/Poseidon_Fleet"
+url = "https://github.com/Afta20/Poseidon_Fleet"
+domain = "MARITIME INTELLIGENCE"
+problem = "Centralized real-time vessel tracking and operational sea-state telemetry."
+stack = ["Next.js 15", "TypeScript", "Prisma", "React-Leaflet"]
+motif = "radar"
+
+[[projects]]
+slug = "aksamedika"
+name = "AksaMedika"
+repo = "Afta20/AksaMedika"
+url = "https://github.com/Afta20/AksaMedika"
+domain = "ZERO-TRUST HEALTHCARE"
+problem = "Cross-facility EMR exchange with granular patient consent and AI triage."
+stack = ["Next.js 15", "Golang Gin", "Neon PG", "Groq AI"]
+motif = "shield"
+
+[[projects]]
+slug = "sentryface"
+name = "SentryFace"
+repo = "Afta20/sentryface-web"
+url = "https://github.com/Afta20/sentryface-web"
+domain = "EDGE AI SECURITY"
+problem = "Low-latency video call deepfake detection via MobileViT and Gemma 4."
+stack = ["Next.js", "MobileViT", "Gemma 4", "Edge AI"]
+motif = "scan"
+
+[[projects]]
+slug = "aftastore"
+name = "AftaStore"
+repo = "Afta20/AftaStore"
+url = "https://github.com/Afta20/AftaStore"
+domain = "COMMERCE PLATFORM"
+problem = "End-to-end storefront, inventory management, and role-safe checkout."
+stack = ["Next.js", "TypeScript", "Prisma", "NextAuth.js"]
+motif = "cart"

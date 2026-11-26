@@ -1,0 +1,59 @@
+{
+  "username": "Afta20",
+  "data_source": "offline_snapshot",
+  "contributions": {
+    "total_contributions": 412,
+    "commits": 328,
+    "pull_requests": 46,
+    "issues": 22,
+    "reviews": 16,
+    "public_repos": 14,
+    "weekly_activity": [14, 18, 26, 22, 31, 35, 29, 38, 42, 47, 52, 58]
+  },
+  "manifest_stack": [
+    {
+      "name": "Next.js / React",
+      "category": "Frontend",
+      "repos_count": 4,
+      "share_pct": 34
+    },
+    {
+      "name": "TypeScript",
+      "category": "Language",
+      "repos_count": 4,
+      "share_pct": 26
+    },
+    {
+      "name": "Prisma & PostgreSQL",
+      "category": "Data",
+      "repos_count": 3,
+      "share_pct": 18
+    },
+    {
+      "name": "Golang (Gin)",
+      "category": "Backend",
+      "repos_count": 1,
+      "share_pct": 12
+    },
+    {
+      "name": "Edge AI (MobileViT / Gemma 4)",
+      "category": "AI",
+      "repos_count": 2,
+      "share_pct": 10
+    }
+  ],
+  "engineering_focus": [
+    {
+      "label": "Full-Stack Web & UI/UX",
+      "pct": 42
+    },
+    {
+      "label": "Backend & Zero-Trust Data",
+      "pct": 33
+    },
+    {
+      "label": "Applied & Edge AI",
+      "pct": 25
+    }
+  ]
+}

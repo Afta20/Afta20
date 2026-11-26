@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 346" width="960" height="346" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">@Afta20 Telemetry &amp; Manifest-Verified Stack</title>
+  <desc id="svg-desc">412 yearly contributions (328 commits, 46 PRs, 16 reviews) and manifest-verified tech stack.</desc>
+  <defs>
+    <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, 'Liberation Mono', monospace; }
+
+    @keyframes barBreathe {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.72; }
+    }
+    @keyframes sparkWave {
+      0%, 100% { opacity: 0.92; }
+      50% { opacity: 0.55; }
+    }
+    .stack-bar-0 { animation: barBreathe 24s ease-in-out infinite; animation-delay: 0s; }
+    .stack-bar-1 { animation: barBreathe 24s ease-in-out infinite; animation-delay: -4s; }
+    .stack-bar-2 { animation: barBreathe 24s ease-in-out infinite; animation-delay: -8s; }
+    .stack-bar-3 { animation: barBreathe 24s ease-in-out infinite; animation-delay: -12s; }
+    .stack-bar-4 { animation: barBreathe 24s ease-in-out infinite; animation-delay: -16s; }
+    .spark-bar { animation: sparkWave 24s ease-in-out infinite; }
+        .spark-0 { animation-delay: -0s; }
+    .spark-1 { animation-delay: -2s; }
+    .spark-2 { animation-delay: -4s; }
+    .spark-3 { animation-delay: -6s; }
+    .spark-4 { animation-delay: -8s; }
+    .spark-5 { animation-delay: -10s; }
+    .spark-6 { animation-delay: -12s; }
+    .spark-7 { animation-delay: -14s; }
+    .spark-8 { animation-delay: -16s; }
+    .spark-9 { animation-delay: -18s; }
+    .spark-10 { animation-delay: -20s; }
+    .spark-11 { animation-delay: -22s; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="958" height="344" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="16" y="16" width="298" height="314" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="34" y="42" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="0.8" fill="#848d97">TELEMETRY</text>
+  <g>
+    <rect x="229" y="26" width="69" height="20" rx="10" fill="#13233a" stroke="#30363d" stroke-width="1"/>
+    <text x="263.5" y="39.3" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#2f81f7">SNAPSHOT</text>
+  </g>
+  <text x="34" y="84" class="font-sans" font-size="32" font-weight="700" fill="#e6edf3">412</text>
+  <text x="101" y="82" class="font-sans" font-size="12" fill="#848d97">contributions / yr</text>
+  <rect x="32" y="102" width="128" height="46" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="44" y="120" class="font-sans" font-size="10.5" fill="#848d97">Commits</text>
+  <text x="44" y="139" class="font-mono" font-size="15" font-weight="700" fill="#2f81f7">328</text>
+  <rect x="170" y="102" width="128" height="46" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="182" y="120" class="font-sans" font-size="10.5" fill="#848d97">Pull Requests</text>
+  <text x="182" y="139" class="font-mono" font-size="15" font-weight="700" fill="#3fb950">46</text>
+  <rect x="32" y="156" width="128" height="46" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="44" y="174" class="font-sans" font-size="10.5" fill="#848d97">Reviews</text>
+  <text x="44" y="193" class="font-mono" font-size="15" font-weight="700" fill="#d29922">16</text>
+  <rect x="170" y="156" width="128" height="46" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="182" y="174" class="font-sans" font-size="10.5" fill="#848d97">Public Repos</text>
+  <text x="182" y="193" class="font-mono" font-size="15" font-weight="700" fill="#e6edf3">14</text>
+  <text x="34" y="228" class="font-mono" font-size="10" font-weight="700" letter-spacing="0.6" fill="#848d97">12-WEEK ACTIVITY CADENCE</text>
+  <line x1="34" y1="304" x2="296" y2="304" stroke="#21262d" stroke-width="1"/>
+  <rect x="34" y="290" width="16" height="14" rx="3" fill="#30363d" class="spark-bar spark-0"/>
+  <rect x="56" y="286" width="16" height="18" rx="3" fill="#30363d" class="spark-bar spark-1"/>
+  <rect x="78" y="278" width="16" height="26" rx="3" fill="#30363d" class="spark-bar spark-2"/>
+  <rect x="100" y="282" width="16" height="22" rx="3" fill="#30363d" class="spark-bar spark-3"/>
+  <rect x="122" y="273" width="16" height="31" rx="3" fill="#3fb950" class="spark-bar spark-4"/>
+  <rect x="144" y="269" width="16" height="35" rx="3" fill="#3fb950" class="spark-bar spark-5"/>
+  <rect x="166" y="275" width="16" height="29" rx="3" fill="#3fb950" class="spark-bar spark-6"/>
+  <rect x="188" y="266" width="16" height="38" rx="3" fill="#3fb950" class="spark-bar spark-7"/>
+  <rect x="210" y="262" width="16" height="42" rx="3" fill="#2f81f7" class="spark-bar spark-8"/>
+  <rect x="232" y="257" width="16" height="47" rx="3" fill="#2f81f7" class="spark-bar spark-9"/>
+  <rect x="254" y="252" width="16" height="52" rx="3" fill="#2f81f7" class="spark-bar spark-10"/>
+  <rect x="276" y="246" width="16" height="58" rx="3" fill="#2f81f7" class="spark-bar spark-11"/>
+  <text x="34" y="318" class="font-mono" font-size="9.5" fill="#848d97">-12w</text>
+  <text x="296" y="318" text-anchor="end" class="font-mono" font-size="9.5" fill="#848d97">Now</text>
+  <rect x="328" y="16" width="364" height="314" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="348" y="42" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="0.8" fill="#848d97">MANIFEST-VERIFIED STACK</text>
+  <text x="348" y="60" class="font-sans" font-size="11.5" fill="#848d97">Derived from active repo manifests (not byte counts)</text>
+  <line x1="348" y1="74" x2="672" y2="74" stroke="#21262d" stroke-width="1"/>
+  <text x="348" y="100" class="font-sans" font-size="12.5" font-weight="600" fill="#e6edf3">Next.js / React</text>
+  <text x="672" y="100" text-anchor="end" class="font-mono" font-size="11" fill="#848d97">4 repos · 34%</text>
+  <rect x="348" y="110" width="324" height="8" rx="4" fill="#21262d"/>
+  <rect x="348" y="110" width="110" height="8" rx="4" fill="#2f81f7" class="stack-bar-0"/>
+  <text x="348" y="146" class="font-sans" font-size="12.5" font-weight="600" fill="#e6edf3">TypeScript</text>
+  <text x="672" y="146" text-anchor="end" class="font-mono" font-size="11" fill="#848d97">4 repos · 26%</text>
+  <rect x="348" y="156" width="324" height="8" rx="4" fill="#21262d"/>
+  <rect x="348" y="156" width="84" height="8" rx="4" fill="#3fb950" class="stack-bar-1"/>
+  <text x="348" y="192" class="font-sans" font-size="12.5" font-weight="600" fill="#e6edf3">Prisma &amp; PostgreSQL</text>
+  <text x="672" y="192" text-anchor="end" class="font-mono" font-size="11" fill="#848d97">3 repos · 18%</text>
+  <rect x="348" y="202" width="324" height="8" rx="4" fill="#21262d"/>
+  <rect x="348" y="202" width="58" height="8" rx="4" fill="#d29922" class="stack-bar-2"/>
+  <text x="348" y="238" class="font-sans" font-size="12.5" font-weight="600" fill="#e6edf3">Golang (Gin)</text>
+  <text x="672" y="238" text-anchor="end" class="font-mono" font-size="11" fill="#848d97">1 repo · 12%</text>
+  <rect x="348" y="248" width="324" height="8" rx="4" fill="#21262d"/>
+  <rect x="348" y="248" width="39" height="8" rx="4" fill="#2f81f7" class="stack-bar-3"/>
+  <text x="348" y="284" class="font-sans" font-size="12.5" font-weight="600" fill="#e6edf3">Edge AI (MobileViT / Gemma 4)</text>
+  <text x="672" y="284" text-anchor="end" class="font-mono" font-size="11" fill="#848d97">2 repos · 10%</text>
+  <rect x="348" y="294" width="324" height="8" rx="4" fill="#21262d"/>
+  <rect x="348" y="294" width="32" height="8" rx="4" fill="#f85149" class="stack-bar-4"/>
+  <rect x="706" y="16" width="238" height="314" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="724" y="42" class="font-mono" font-size="10.5" font-weight="700" letter-spacing="0.8" fill="#848d97">ENGINEERING FOCUS</text>
+  <text x="724" y="74" class="font-sans" font-size="11.5" font-weight="600" fill="#e6edf3">Full-Stack Web &amp; UI/UX</text>
+  <text x="926" y="74" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#2f81f7">42%</text>
+  <rect x="724" y="83" width="202" height="7" rx="3.5" fill="#21262d"/>
+  <rect x="724" y="83" width="85" height="7" rx="3.5" fill="#2f81f7"/>
+  <text x="724" y="120" class="font-sans" font-size="11.5" font-weight="600" fill="#e6edf3">Backend &amp; Zero-Trust Data</text>
+  <text x="926" y="120" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#3fb950">33%</text>
+  <rect x="724" y="129" width="202" height="7" rx="3.5" fill="#21262d"/>
+  <rect x="724" y="129" width="67" height="7" rx="3.5" fill="#3fb950"/>
+  <text x="724" y="166" class="font-sans" font-size="11.5" font-weight="600" fill="#e6edf3">Applied &amp; Edge AI</text>
+  <text x="926" y="166" text-anchor="end" class="font-mono" font-size="11" font-weight="700" fill="#d29922">25%</text>
+  <rect x="724" y="175" width="202" height="7" rx="3.5" fill="#21262d"/>
+  <rect x="724" y="175" width="50" height="7" rx="3.5" fill="#d29922"/>
+  <line x1="724" y1="210" x2="926" y2="210" stroke="#21262d" stroke-width="1"/>
+  <text x="724" y="234" class="font-mono" font-size="10" font-weight="700" letter-spacing="0.7" fill="#848d97">SHIPPED HIGHLIGHTS</text>
+  <text x="724" y="260" class="font-sans" font-size="11" fill="#848d97">Maritime UI</text>
+  <text x="926" y="260" text-anchor="end" class="font-mono" font-size="11" font-weight="600" fill="#e6edf3">React-Leaflet · Live</text>
+  <text x="724" y="285" class="font-sans" font-size="11" fill="#848d97">Healthcare</text>
+  <text x="926" y="285" text-anchor="end" class="font-mono" font-size="11" font-weight="600" fill="#e6edf3">Zero-Trust · Go Gin</text>
+  <text x="724" y="310" class="font-sans" font-size="11" fill="#848d97">Edge Vision</text>
+  <text x="926" y="310" text-anchor="end" class="font-mono" font-size="11" font-weight="600" fill="#e6edf3">MobileViT · Gemma 4</text>
+</svg>

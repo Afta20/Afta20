@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405 198" width="405" height="198" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">Poseidon Fleet (Afta20/Poseidon_Fleet) — MARITIME INTELLIGENCE</title>
+  <desc id="svg-desc">Centralized real-time vessel tracking and operational sea-state telemetry. Built with Next.js 15, TypeScript, Prisma, React-Leaflet.</desc>
+  <defs>
+    <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, 'Liberation Mono', monospace; }
+
+    @keyframes motifBreath {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.52; }
+    }
+    .motif-pulse {
+      animation: motifBreath 24s ease-in-out infinite;
+      animation-delay: 0s;
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="403" height="196" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="1" y="1" width="403" height="3" rx="1.5" fill="#0969da"/>
+  <g>
+    <rect x="20" y="18" width="157" height="20" rx="10" fill="#ddf4ff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="98.5" y="31.3" text-anchor="middle" class="font-mono" font-size="9.5" font-weight="600" fill="#0969da">MARITIME INTELLIGENCE</text>
+  </g>
+  <g>
+    <circle cx="368" cy="34" r="15" fill="#ddf4ff" stroke="#d0d7de" stroke-width="1"/>
+    <circle cx="368" cy="34" r="9" fill="none" stroke="#0969da" stroke-width="1" opacity="0.65" class="motif-pulse"/>
+    <line x1="368" y1="34" x2="376" y2="27" stroke="#0969da" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="368" cy="34" r="2.3" fill="#1a7f37"/>
+  </g>
+  <text x="20" y="68" class="font-sans" font-size="19" font-weight="700" fill="#1f2328">Poseidon Fleet</text>
+  <text x="20" y="88" class="font-mono" font-size="11" font-weight="600" fill="#0969da">Afta20/Poseidon_Fleet ↗</text>
+  <text x="20" y="113" class="font-sans" font-size="12" fill="#636c76">Centralized real-time vessel tracking and operational</text>
+  <text x="20" y="130" class="font-sans" font-size="12" fill="#636c76">sea-state telemetry.</text>
+  <line x1="20" y1="149" x2="385" y2="149" stroke="#e5e9ef" stroke-width="1"/>
+  <g>
+    <rect x="20" y="160" width="82" height="22" rx="11" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="61.0" y="174.5" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#1f2328">Next.js 15</text>
+  </g>
+  <g>
+    <rect x="108" y="160" width="82" height="22" rx="11" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="149.0" y="174.5" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#1f2328">TypeScript</text>
+  </g>
+  <g>
+    <rect x="196" y="160" width="56" height="22" rx="11" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="224.0" y="174.5" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#1f2328">Prisma</text>
+  </g>
+  <g>
+    <rect x="258" y="160" width="102" height="22" rx="11" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="309.0" y="174.5" text-anchor="middle" class="font-mono" font-size="10" font-weight="600" fill="#1f2328">React-Leaflet</text>
+  </g>
+</svg>

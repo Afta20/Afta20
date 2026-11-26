@@ -1,0 +1,57 @@
+name: Update GitHub Profile SVGs
+
+on:
+  schedule:
+    # Off-peak daily schedule (03:17 UTC)
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-readme
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch stats and generate Light/Dark SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          PYTHONPATH: .
+        run: python3 src/render_svg.py
+
+      - name: Run SVG compatibility gate
+        env:
+          PYTHONPATH: .
+        run: python3 scripts/check_svg_compat.py assets/generated
+
+      - name: Run unit tests
+        env:
+          PYTHONPATH: .
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Commit updated assets if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated data/stats_cache.json
+          if git diff --cached --quiet; then
+            echo "No telemetry or visual changes detected; skipping commit."
+            exit 0
+          fi
+          git commit -m "chore(profile): update generated SVG telemetry"
+          git push
