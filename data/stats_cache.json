@@ -1,59 +1,72 @@
 {
   "username": "Afta20",
-  "data_source": "offline_snapshot",
+  "data_source": "github_graphql",
   "contributions": {
-    "total_contributions": 412,
-    "commits": 328,
-    "pull_requests": 46,
-    "issues": 22,
-    "reviews": 16,
-    "public_repos": 14,
-    "weekly_activity": [14, 18, 26, 22, 31, 35, 29, 38, 42, 47, 52, 58]
+    "total_contributions": 272,
+    "commits": 239,
+    "pull_requests": 4,
+    "issues": 0,
+    "reviews": 0,
+    "public_repos": 30,
+    "weekly_activity": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      2
+    ]
   },
   "manifest_stack": [
     {
       "name": "Next.js / React",
       "category": "Frontend",
-      "repos_count": 4,
-      "share_pct": 34
+      "repos_count": 7,
+      "share_pct": 32
     },
     {
       "name": "TypeScript",
       "category": "Language",
-      "repos_count": 4,
-      "share_pct": 26
+      "repos_count": 7,
+      "share_pct": 32
     },
     {
-      "name": "Prisma & PostgreSQL",
-      "category": "Data",
-      "repos_count": 3,
-      "share_pct": 18
+      "name": "Tailwind CSS",
+      "category": "UI",
+      "repos_count": 5,
+      "share_pct": 23
     },
     {
       "name": "Golang (Gin)",
       "category": "Backend",
       "repos_count": 1,
-      "share_pct": 12
+      "share_pct": 5
     },
     {
-      "name": "Edge AI (MobileViT / Gemma 4)",
-      "category": "AI",
-      "repos_count": 2,
-      "share_pct": 10
+      "name": "Prisma & SQL",
+      "category": "Data",
+      "repos_count": 1,
+      "share_pct": 8
     }
   ],
   "engineering_focus": [
     {
       "label": "Full-Stack Web & UI/UX",
-      "pct": 42
+      "pct": 87
     },
     {
       "label": "Backend & Zero-Trust Data",
-      "pct": 33
+      "pct": 13
     },
     {
       "label": "Applied & Edge AI",
-      "pct": 25
+      "pct": 0
     }
   ]
 }
